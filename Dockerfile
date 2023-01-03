@@ -1,5 +1,5 @@
 # build stage
-FROM node:8.12-alpine as build-stage
+FROM node:current-alpine as build-stage
 RUN apk add --no-cache \
         python2 \
         make \
