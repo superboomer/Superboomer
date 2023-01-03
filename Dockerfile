@@ -1,7 +1,6 @@
 # build stage
 FROM node:current-alpine as build-stage
 RUN apk add --no-cache \
-        python2 \
         make \
         g++
 WORKDIR /app
