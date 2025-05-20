@@ -9,8 +9,8 @@ import QuestionIcon from './icons/IconQuestion.vue'
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Нравится что я делаю?</template>
-Ну и спасибо.
+    <template #heading>Привет</template>
+( ͡° ͜ʖ ͡°)
   </WelcomeItem>
 
   <WelcomeItem>
@@ -18,6 +18,6 @@ import QuestionIcon from './icons/IconQuestion.vue'
       <QuestionIcon />
     </template>
     <template #heading>А зачем нужна эта страница?</template>
-Просто чтобы я потестил всякую поебень. Ну и вроде бы даже работает...
+Просто чтобы было. Ну и вроде бы даже работает...
   </WelcomeItem>
 </template>
